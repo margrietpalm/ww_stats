@@ -1,10 +1,12 @@
+## WW Stats
+
+Visualizeer leuke stats uit onze ww potjes
+
+
 ## TODO
 
-* [ ] Design app
-* [ ] Authentication
+* [ ] Tests
+* [ ] Liniting
+* [ ] Proper type hinting
 
-### Authentication
-
-https://github.com/mkhorasani/Streamlit-Authenticator
-
-https://github.com/GauriSP10/streamlit_login_auth_ui
+En alle goede ideeen die nog in mijn hoofd zitten
