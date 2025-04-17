@@ -115,6 +115,8 @@ class WWData:
     def _initialize_player_map(self) -> Dict[str, Player]:
         player_map = {}
         for key, roles in self.games_roles.items():
+            if key not in self.game_map:
+                continue
             for name in roles:
                 if name not in player_map:
                     player_map[name] = Player(name)
